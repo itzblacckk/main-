@@ -11,7 +11,7 @@ interface TourCardProps {
 export function TourCard({ tour }: TourCardProps) {
   const handleBooking = () => {
     const message = `Hi, I'm interested in the ${tour.title} tour.\n\nDetails:\nDuration: ${tour.duration}\nLocation: ${tour.location}\n\nPlease provide more information about upcoming dates.`;
-    window.open(`https://wa.me/+919876543210?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/+918097621390?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   return (
