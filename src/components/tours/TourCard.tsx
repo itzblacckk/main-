@@ -49,6 +49,12 @@ export function TourCard({ tour }: TourCardProps) {
           <div>
             <span className="text-2xl font-bold text-blue-600">₹{tour.price}</span>
           </div>
+           <Link 
+            to={`/tours/${tour.id}`}
+            className="bg-white text-gray-800 px-4 py-2 rounded-lg shadow-sm hover:bg-gray-50 transition-colors"
+          >
+            View Details
+          </Link>
           <button
             onClick={handleBooking}
             className="bg-green-500 text-white px-4 py-2 rounded-full hover:bg-green-600 flex items-center"
