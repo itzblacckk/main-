@@ -27,22 +27,6 @@ export default function Home() {
     <div>
       <HeroSlider />
 
-      {/* Statistics Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-12">Our Achievements</h2>
-          <div className="grid md:grid-cols-2 gap-12">
-            <div>
-              <h3 className="text-3xl font-bold text-blue-600">50+</h3>
-              <p className="text-lg text-gray-600">Treks Completed</p>
-            </div>
-            <div>
-              <h3 className="text-3xl font-bold text-blue-600">1000+</h3>
-              <p className="text-lg text-gray-600">Happy Customers</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* About Section */}
       <section className="py-20 bg-white">
@@ -67,6 +51,23 @@ export default function Home() {
           </div>
         </div>
       </section>
+            {/* Statistics Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl font-bold mb-12">Our Achievements</h2>
+          <div className="grid md:grid-cols-2 gap-12">
+            <div>
+              <h3 className="text-3xl font-bold text-blue-600">50+</h3>
+              <p className="text-lg text-gray-600">Treks Completed</p>
+            </div>
+            <div>
+              <h3 className="text-3xl font-bold text-blue-600">1000+</h3>
+              <p className="text-lg text-gray-600">Happy Customers</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
       {/* Services Section */}
       <section className="py-20 bg-gray-50">
