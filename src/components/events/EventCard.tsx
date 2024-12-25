@@ -12,7 +12,7 @@ export function EventCard({ event }: EventCardProps) {
 
   const handleRegistration = () => {
     const message = `Hi, I'd like to register for the event: ${event.title}\n\nDetails:\nDate: ${new Date(event.date).toLocaleDateString()}\nLocation: ${event.location}\n\nPlease provide registration details.`;
-    window.open(`https://wa.me/+919876543210?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/+918097621390?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   return (
