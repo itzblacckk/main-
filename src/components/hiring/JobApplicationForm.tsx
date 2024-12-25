@@ -48,7 +48,7 @@ export function JobApplicationForm() {
       
       // Create WhatsApp message
       const message = `New Job Application\n\nName: ${formData.name}\nRole: ${formData.role}\nExperience: ${formData.experience} years\nEmail: ${formData.email}\nPhone: ${formData.phone}`;
-      const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(message)}`;
+      const whatsappUrl = `https://wa.me/918097621390?text=${encodeURIComponent(message)}`;
       
       toast.success('Application submitted successfully!');
       window.open(whatsappUrl, '_blank');
